@@ -28,12 +28,15 @@ With SchemaMind, users can:
 ## Core Concepts
 
 ### OCR Extraction
+
 Documents are processed asynchronously to extract raw text and metadata such as page count and confidence scores.
 
 ### Schema-Based Extraction
+
 Instead of returning only raw text, SchemaMind allows users to define **schemas** describing what data they want.
 
 Example schema fields:
+
 - invoice_number (string)
 - invoice_date (date)
 - total_amount (number)
@@ -83,6 +86,7 @@ SchemaMind is designed as a **headless backend service**.
 🚧 **Under active development**
 
 Current focus:
+
 - Backend architecture
 - Database schema
 - OCR pipeline
@@ -129,6 +133,7 @@ License information will be added later.
 ## Author
 
 Built as a production-grade backend system to explore:
+
 - OCR pipelines
 - Asynchronous processing
 - Schema-driven data extraction
